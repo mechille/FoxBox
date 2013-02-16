@@ -1,4 +1,4 @@
-/* ----- Maxbox settings -----*/
+/* ----- Foxbox settings -----*/
 .foxoverlay	{position:fixed; z-index:10; top:0px; left:0px; height:100%; width:100%; background-color:#000;}
 .foxtitle	{font-size:12px; background-color:#131313; height:29px; line-height:29px; text-indent:10px; border-bottom:1px solid #000; display:none; color:#fff;}
 .foxwin		{position:fixed; z-index:62; background:#0B0B0B url("images/loadingAnimation.gif") no-repeat center; overflow:hidden; color:#666; top:50%; left:50%; width:150px; height:150px; margin-left:-75px; margin-top:-75px;}
@@ -9,7 +9,7 @@
 
 a.foxclose	{display:block; width:29px; height:29px; border-left:1px solid #000; background:url("images/close.gif") no-repeat center; float:right;}
 
-/* ----- Maxbox ie6 hack -----*/
+/* ----- Foxbox ie6 hack -----*/
 * html .foxoverlay, * html .foxwin	{position:absolute;}
 * html .foxoverlay	{height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
 * html .foxwin	{margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');}
